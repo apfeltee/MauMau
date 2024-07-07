@@ -13,3 +13,4 @@ gevent==1.0.1
 gevent-websocket==0.9.3
 redis==2.10.3
 
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
