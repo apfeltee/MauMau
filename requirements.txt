@@ -13,3 +13,5 @@ gevent==1.0.1
 gevent-websocket==0.9.3
 redis==2.10.3
 
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
